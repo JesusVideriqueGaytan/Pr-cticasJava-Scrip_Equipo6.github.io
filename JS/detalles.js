@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Restaurar contenido inicial
-        document.querySelector('a[href="Index.html"]').addEventListener('click', function (e) {
+        document.querySelector('a[href="index.html"]').addEventListener('click', function (e) {
             contenidoDinamico.innerHTML = contenidoInicial;
             document.title = 'Inicio | Prácticas';
             if (headerPrincipal) {
